@@ -1,0 +1,73 @@
+/* Stylesheet for When Cats Blog Lab 4*/
+.page-header h1{
+  font-family: 'Spirax', cursive;
+  font-size: 400%;
+}
+
+.page-header, footer {
+  text-align: center;
+  padding: 3%;
+  word-spacing: 3px;
+
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-inner {
+ height: 75%;
+
+}
+
+.sidenav {
+  margin-top: 4%;
+  /*height: 1000px;*/
+  background-color: #ffd1f3;
+}
+
+.sidenav a:hover {
+  color: #940094;
+}
+
+.blogpost {
+  margin-top: 4%;
+  background-color: #fff8fd;
+}
+
+.blogpost img{
+  width: 50%;
+  float: right;
+  margin-left: 8px;
+}
+
+.blogpost p:first-letter{
+  font-size: 125%;
+}
+
+/* Form */
+form {
+  width: 50%;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 5px;
+  resize: none;
+  box-sizing: border-box;
+}
